@@ -5,8 +5,10 @@
 //resultado final indicando el ganador del juego
 #include <iostream>
 #include <cstdlib>
+#include <ctime>
 using namespace std;
 int main(){
+	srand(time(0));
 	int azar, eleccion, contadorhumano, contadormaquina;
 	contadorhumano=0;
 	contadormaquina=0;
